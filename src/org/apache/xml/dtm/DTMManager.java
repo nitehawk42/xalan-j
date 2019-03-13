@@ -376,7 +376,7 @@ public abstract class DTMManager
    * comparison against the previous "golden" files will probably
    * complain.)
    * */
-  public static final int IDENT_DTM_NODE_BITS = 16;
+  public static final int IDENT_DTM_NODE_BITS = 12;
     
 
   /** When this bitmask is ANDed with a DTM node handle number, the result
